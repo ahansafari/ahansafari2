@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آهن‌آلات صفری | فروشگاه حرفه‌ای آهن و فلزات</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<style>
+:root{
+  --color-primary:#1a237e;
+  --color-secondary:#1976d2;
+  --color-accent:#25d366;
+  --color-bg-light:#f5f5f7;
+  --color-card-light:#fff;
+  --color-text-light:#333;
+  --transition:.4s ease;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Vazirmatn',Tahoma,sans-serif;background:var(--color-bg-light);color:var(--color-text-light);line-height:1.6;transition:background var(--transition), color var(--transition);}
+body.dark{background:#121212;color:#eee;}
+header{background:var(--color-primary);color:#fff;padding:15px 20px;text-align:center;font-weight:700;position:sticky;top:0;z-index:1000;transition:background var(--transition);}
+body.dark header{background:#0d0d4d;}
+.hero{height:350px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,#1a237e,#1976d2,#25d366);color:#fff;text-align:center;border-radius:15px;margin:20px;animation:bgAnimate 15s ease infinite;}
+@keyframes bgAnimate{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.hero h1{font-size:36px;font-weight:700;}
+.hero p{font-size:20px;font-weight:500;margin-top:10px;}
+.container{max-width:1200px;margin:0 auto;padding:0 20px;}
+.swiper{padding-bottom:50px;}
+.swiper-slide{display:flex;justify-content:center;}
+.product-card{background:var(--color-card-light);border-radius:15px;width:280px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,0.1);transition:transform var(--transition),box-shadow var(--transition), background var(--transition);}
+body.dark .product-card{background:#1e1e1e;}
+.product-card:hover{transform:translateY(-12px) scale(1.03);box-shadow:0 14px 30px rgba(0,0,0,0.25);}
+.product-card img{width:100%;height:200px;object-fit:cover;transition:transform var(--transition);}
+.product-card img:hover{transform:scale(1.08);}
+.product-details{text-align:center;padding:15px;}
+.product-name{font-size:22px;font-weight:700;color:var(--color-primary);transition:color var(--transition);}
+body.dark .product-name{color:#90caf9;}
+.product-price{font-size:16px;color:#d32f2f;transition:color var(--transition);}
+body.dark .product-price{color:#ef9a9a;}
+.call-to-action{background:#e3f2fd;padding:35px;border-radius:15px;text-align:center;margin:50px 0;transition:background var(--transition);}
+body.dark .call-to-action{background:#1e1e1e;}
+footer{background:var(--color-primary);color:#fff;text-align:center;padding:20px 0;font-weight:500;transition:background var(--transition);}
+body.dark footer{background:#0d0d4d;}
+.dark-mode-toggle{position:fixed;bottom:20px;right:20px;background:var(--color-secondary);color:#fff;border:none;padding:12px 16px;border-radius:50px;font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:background var(--transition);}
+.dark-mode-toggle:hover{background:#0d47a1;}
+.map-container{width:100%;height:350px;border-radius:15px;overflow:hidden;margin:30px 0;}
+@media(max-width:768px){.hero h1{font-size:28px;}.hero p{font-size:16px;}.product-card{width:90%;}}
+</style>
+</head>
+<body>
+
+<header>آهن‌آلات صفری</header>
+
+<section class="hero">
+  <h1>ارزانترین فروشگاه آهن‌آلات در تهران</h1>
+  <p>فروش کلی و جزئی — حتی یک شاخه!</p>
+</section>
+
+<div class="container">
+
+<div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="1200">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><div class="product-card"><img src="images/nabshi.jpg" alt="نبشی"><div class="product-details"><div class="product-name">نبشی</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/tirahan.jpg" alt="تیرآهن"><div class="product-details"><div class="product-name">تیرآهن</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/milgerd.jpg" alt="میلگرد"><div class="product-details"><div class="product-name">میلگرد</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/ghoti.jpg" alt="قوطی"><div class="product-details"><div class="product-name">قوطی</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/profil.jpg" alt="پروفیل"><div class="product-details"><div class="product-name">پروفیل</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/rabits.jpg" alt="رابیتس"><div class="product-details"><div class="product-name">رابیتس</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/iranit.jpg" alt="ایرانیت"><div class="product-details"><div class="product-name">ایرانیت</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/varagh_siah.jpg" alt="ورق سیاه"><div class="product-details"><div class="product-name">ورق سیاه</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/varagh_galv.jpg" alt="ورق گالوانیزه"><div class="product-details"><div class="product-name">ورق گالوانیزه</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/iranit_color.jpg" alt="ایرانیت رنگی"><div class="product-details"><div class="product-name">ایرانیت رنگی</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/tesmeh.jpg" alt="تسمه"><div class="product-details"><div class="product-name">تسمه</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/safhe_soton.jpg" alt="صفحه ستون"><div class="product-details"><div class="product-name">صفحه ستون</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/ettesalat.jpg" alt="اتصالات"><div class="product-details"><div class="product-name">اتصالات</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/tori_persi.jpg" alt="توری پرسی"><div class="product-details"><div class="product-name">توری پرسی</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+    <div class="swiper-slide"><div class="product-card"><img src="images/varagh_panch.jpg" alt="ورق پانچ"><div class="product-details"><div class="product-name">ورق پانچ</div><div class="product-price">قیمت: تماس بگیرید</div></div></div></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+<div class="call-to-action" data-aos="fade-up" data-aos-duration="1200">
+  <h3>تماس با ما</h3>
+  <p>به همین راحتی خرید کنید. در تمام مراحل خرید و تحویل بار همراه شما خواهیم بود. کافیست با شماره‌های  
+  <b>02146075680</b> — <b>02146075609</b> — <b>09122525982</b> تماس بگیرید.</p>
+</div>
+
+<div class="map-container">
+  <iframe src="https://www.google.com/maps/d/embed?mid=KeV9c7c8HeJGeJJZv" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+</div>
+
+<footer>© 2025 آهن صفری | همه حقوق محفوظ است.</footer>
+
+<button class="dark-mode-toggle" onclick="document.body.classList.toggle('dark')"><i class="fas fa-moon"></i> حالت تاریک</button>
+
+<script>
+const swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop: true,
+  pagination: { el: ".swiper-pagination", clickable: true },
+  navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+  breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
+});
+AOS.init();
+</script>
+
+</body>
+</html>
